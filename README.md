@@ -1,1 +1,1 @@
-Esta clase creada para controlar motores paso a paso ha sido desarrollada y probada para una RaspBerry Pi 4.
+La clase StepperController (Controlador de motores paso a paso) se ha creado para trabajar sobre una Raspberry Pi 4, aunque es facilmente adaptable a cualquier procesador y/o microcontrolador.
