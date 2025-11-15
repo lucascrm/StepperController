@@ -227,10 +227,11 @@ int main() {
                     // pero si se necesita un reset arbitrario, debe haber un método `resetPosition()` en StepperController.
                     // Si el motor está en movimiento, se detiene primero
                     motor.stop(); 
+                    
                     motor.resetPosition(0);
                     std::cout << "Posición reseteada a 0. (Requiere método resetPosition() en StepperController)" << std::endl;
                 } else {
-                    
+
                     std::cout << "Opción no válida." << std::endl;
                 }
             }
