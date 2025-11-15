@@ -7,7 +7,7 @@
  */
 
 
-#include "motor/StepperController.h"
+#include "StepperController.h"
 
 #include <algorithm>
 #include <stdexcept>

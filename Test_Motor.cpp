@@ -1,4 +1,4 @@
-#include "motor/StepperController.h"
+#include "StepperController.h"
 #include <iostream>
 #include <chrono>
 #include <thread>
