@@ -230,6 +230,7 @@ int main() {
                     motor.resetPosition(0);
                     std::cout << "Posición reseteada a 0. (Requiere método resetPosition() en StepperController)" << std::endl;
                 } else {
+                    
                     std::cout << "Opción no válida." << std::endl;
                 }
             }
